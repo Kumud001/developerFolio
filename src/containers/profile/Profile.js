@@ -46,6 +46,7 @@ export default function Profile() {
         <GithubProfileCard prof={prof} key={prof.id} />
       </Suspense>
     );
+  
   } else {
     return <Contact />;
   }

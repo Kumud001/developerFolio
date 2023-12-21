@@ -1,0 +1,49 @@
+@import "../../_globalColor";
+
+.about-me-section {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.about-me-title {
+  font-size: 65px;
+  color: $textColor !important;
+  margin-bottom: 20px;
+}
+
+.about-me-subtitle {
+  font-size: 30px;
+  line-height: 1.4;
+  color: $subTitle !important;
+}
+
+.hobbies {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  margin-top: 20px;
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-me-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .about-me-subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hobbies {
+    text-align: center;
+    font-size: 18px;
+  }
+}
