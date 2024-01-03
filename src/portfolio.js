@@ -251,6 +251,19 @@ const bigProjects = {
   subtitle: "A curated collection of personal and academic endeavors showcasing my skills and interests",
   projects: [
     {
+      image: require("./assets/images/ECOMMMain.png"),
+      projectName: "Full Stack E-Commerce + Dashboard & CMS",
+      projectDesc: "An extensive Full Stack E-Commerce + Dashboard & CMS application offering a suite of features to manage multiple e-commerce stores. I spearheaded various aspects including designing an integrated admin dashboard and CMS, implementing Shadcn UI for enhanced admin functionality, developing dynamic API routes, and managing data models with Prisma and MySQL. The project also involved crafting product management systems, optimizing search functionality, curating featured products, monitoring business metrics, and incorporating Clerk authentication along with Stripe checkout and webhooks for secure transactions.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ecommerce-store-project-pi.vercel.app/"
+        }
+        // you can add extra buttons here.
+      ]
+    },
+    
+    {
       image: require("./assets/images/DecadesOfCinema.png"),
       projectName: "Decades Of Cinema",
       projectDesc: "This data-driven web application focuses on analyzing the movie industry over the past three decades (1986-2016). Utilizing a dataset from Kaggle, the project delves into various aspects like budget, production company, country of origin, director, genre, revenue, rating, and more. It serves as a comprehensive tool for industry analysis, offering insights into trends, box office revenues, and the impact of user ratings on movie success.",
