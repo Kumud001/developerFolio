@@ -145,9 +145,9 @@ const educationInfo = {
       logo: require("./assets/images/IUb.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
-      desc: "GPA: 3.95 / 4.0",
+      desc: "GPA: 3.97 / 4.0",
       descBullets: [
-       " Applied Algorithms, Applied Machine Learning, Data Mining, Applied Database Technologies, Computer Networks, Software Engineering,Security For Netwroked Systems"
+       " Applied Algorithms, Applied Machine Learning, Data Mining, Applied Database Technologies, Computer Networks, Software Engineering,Security For Networked Systems"
         
       ]
     },
