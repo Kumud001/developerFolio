@@ -258,7 +258,7 @@ const bigProjects = {
         {
           name: "Visit Website Store",
           url: "https://ecommerce-store-project-pi.vercel.app/"
-        }
+        },
         
         {
         
