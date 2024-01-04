@@ -256,8 +256,14 @@ const bigProjects = {
       projectDesc: "An extensive Full Stack E-Commerce + Dashboard & CMS application offering a suite of features to manage multiple e-commerce stores. I spearheaded various aspects including designing an integrated admin dashboard and CMS, implementing Shadcn UI for enhanced admin functionality, developing dynamic API routes, and managing data models with Prisma and MySQL. The project also involved crafting product management systems, optimizing search functionality, curating featured products, monitoring business metrics, and incorporating Clerk authentication along with Stripe checkout and webhooks for secure transactions.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Website Store",
           url: "https://ecommerce-store-project-pi.vercel.app/"
+        }
+        
+        {
+        
+          name: "Visit Admin Dashboard",
+          url: "https://ecommerce-admin-project-six.vercel.app/"
         }
         // you can add extra buttons here.
       ]
